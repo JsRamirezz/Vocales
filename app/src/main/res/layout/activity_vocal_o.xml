@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vocalO"
+    android:background="@drawable/fondo8">
+
+    <ImageView
+        android:id="@+id/imgO"
+        android:layout_width="262dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vocal_o1" />
+
+    <ImageView
+        android:id="@+id/imgOso"
+        android:layout_width="227dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgO"
+        app:srcCompat="@drawable/osos" />
+
+    <Button
+        android:id="@+id/btnRegresarO"
+        android:layout_width="213dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="68dp"
+        android:text="Regresar al menu principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtIndicacion4"
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:text="Toca las imagenes!"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

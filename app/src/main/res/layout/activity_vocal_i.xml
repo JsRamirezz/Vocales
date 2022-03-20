@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vocal_i"
+    android:background="@drawable/fondo8">
+
+    <ImageView
+        android:id="@+id/imgI"
+        android:layout_width="274dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vocal_i" />
+
+    <Button
+        android:id="@+id/btnRegresarI"
+        android:layout_width="213dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="60dp"
+        android:text="Regresar al menu principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtIndicacion3"
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:text="Toca las imagenes!"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgIsla"
+        android:layout_width="285dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgI"
+        app:srcCompat="@drawable/isla" />
+</androidx.constraintlayout.widget.ConstraintLayout>
